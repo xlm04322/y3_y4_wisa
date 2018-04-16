@@ -1,0 +1,130 @@
+---- GPIOA Matches (76 in 12 files) ----
+ADC1.c (my_lib\adc):  GPIO_Init(GPIOA, &GPIO_InitStructure);	
+KEY.c (my_lib\key):    GPIO_Init(GPIOA, &GPIO_InitStructure);
+KEY.c (my_lib\key):    GPIO_Init(GPIOA, &GPIO_InitStructure);
+KEY.h (my_lib\key):#define PA5  	((GPIO_ReadInputData(GPIOA)>>5)&0x01)
+KEY1.c (my_lib\key):    GPIO_Init(GPIOA, &GPIO_InitStructure); 
+KEY1.c (my_lib\key):	  last_a = GPIO_ReadInputDataBit(GPIOA, 5);
+KEY1.c (my_lib\key):		last_b = GPIO_ReadInputDataBit(GPIOA, 6);
+KEY1.c (my_lib\key):		GPIO_Init(GPIOA, &GPIO_InitStruct); 
+KEY1.c (my_lib\key):			exti_signal_a = GPIO_ReadInputDataBit(GPIOA, 3);
+KEY1.c (my_lib\key):			exti_signal_b = GPIO_ReadInputDataBit(GPIOA, 11);
+KEY1.c (my_lib\key):			exti_signal_a = GPIO_ReadInputDataBit(GPIOA, 5);
+KEY1.c (my_lib\key):			exti_signal_b = GPIO_ReadInputDataBit(GPIOA, 6);
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_7);	
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_12);		// mode 0 pa12=0
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_11);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_10);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_15);
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_9);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_8);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_6);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_5);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_7);
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_12);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_11);		// mode 1 ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_10);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_15);
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_9);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_8);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_6);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_5);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_7);
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_12);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_11);		// mode 1 ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_10);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_15);		// mode 
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_9);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_8);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_6);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_5);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_7);
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_12);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_11);		// mode 1 ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_10);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_15);
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_9);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_8);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_6);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_5);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_7);
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_12);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_11);		// mode 1 ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_10);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_15);
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_9);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_8);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_6);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_5);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA, GPIO_Pin_2);
+Main.c (user):			GPIO_ResetBits(GPIOA, GPIO_Pin_0);
+Main.c (user):			GPIO_SetBits(GPIOA, GPIO_Pin_3);
+Main.c (user):			GPIO_ResetBits(GPIOA, GPIO_Pin_1);
+PGA2311.c (my_lib\pga2311):		GPIO_ResetBits(GPIOA, PGA2311_CS);
+PGA2311.c (my_lib\pga2311):		GPIO_SetBits(GPIOA, PGA2311_CS);
+Speak.c (my_lib\speak):		GPIO_SetBits(GPIOA, GPIO_Pin_6);
+Speak.c (my_lib\speak):		GPIO_ResetBits(GPIOA, GPIO_Pin_6);
+Speak.c (my_lib\speak):		GPIO_ResetBits(GPIOA, GPIO_Pin_15);
+Stm32f0xx.h (system\cmsis):#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+Stm32f0xx_gpio.c (st_lib\src):  if(GPIOx == GPIOA)
+Stm32f0xx_gpio.h (st_lib\inc):#define IS_GPIO_ALL_PERIPH(PERIPH) (((PERIPH) == GPIOA) || \
+Stm32f0xx_gpio.h (st_lib\inc):#define IS_GPIO_LIST_PERIPH(PERIPH) (((PERIPH) == GPIOA) || \
+USART1.c (my_lib\uart):		GPIO_PinAFConfig(GPIOA,GPIO_PinSource9,GPIO_AF_1);
+USART1.c (my_lib\uart):		GPIO_PinAFConfig(GPIOA,GPIO_PinSource10,GPIO_AF_1);     											 
+USART1.c (my_lib\uart):		GPIO_Init(GPIOA, &GPIO_InitStructure);   
+USART2.c (my_lib\usart2):		GPIO_PinAFConfig(GPIOA, GPIO_PinSource2, GPIO_AF_1);
+USART2.c (my_lib\usart2):		GPIO_PinAFConfig(GPIOA, GPIO_PinSource3, GPIO_AF_1);     											 
+USART2.c (my_lib\usart2):		GPIO_Init(GPIOA, &GPIO_InitStructure);   
+---- USART2_Init Matches (14 in 4 files) ----
+Main.c (user):		USART2_Init();
+Monitor_One.htm (proj):main &rArr; USART2_Init &rArr; USART_Init &rArr; RCC_GetClocksFreq &rArr; __aeabi_uidivmod
+Monitor_One.htm (proj):<BR><BR>[Stack]<UL><LI>Max Depth = 140<LI>Call Chain = main &rArr; USART2_Init &rArr; USART_Init &rArr; RCC_GetClocksFreq &rArr; __aeabi_uidivmod
+Monitor_One.htm (proj):<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Init
+Monitor_One.htm (proj):<P><STRONG><a name="[3b]"></a>USART2_Init</STRONG> (Thumb, 116 bytes, Stack size 40 bytes, usart2.o(.text))
+Monitor_One.htm (proj):<BR><BR>[Stack]<UL><LI>Max Depth = 140<LI>Call Chain = USART2_Init &rArr; USART_Init &rArr; RCC_GetClocksFreq &rArr; __aeabi_uidivmod
+Monitor_One.htm (proj):<BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Init
+Monitor_One.htm (proj):<BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Init
+Monitor_One.htm (proj):<BR><BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Init
+Monitor_One.htm (proj):<BR><BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Init
+Monitor_One.htm (proj):<BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Init
+Monitor_One.htm (proj):<BR><BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_Init
+USART2.c (my_lib\usart2):void USART2_Init(void)
+USART2.h (my_lib\usart2):void USART2_Init(void);
+---- GPIOA, GPIO_Pin_8 Matches (2 in 1 files) ----
+Main.c (user):			GPIO_SetBits(GPIOA, GPIO_Pin_8);
+Main.c (user):		GPIO_ResetBits(GPIOA, GPIO_Pin_8);
+---- GPIO_Pin_8 Matches (12 in 5 files) ----
+I2c1.c (my_lib\i2c):  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8 | GPIO_Pin_9;
+KEY.c (my_lib\key):    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_8 |GPIO_Pin_12 |GPIO_Pin_11 |
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_8);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_8);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_8);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA,GPIO_Pin_8);		// other ??
+Main.c (user):			GPIO_ResetBits(GPIOA,GPIO_Pin_8);		// other ??
+Main.c (user):			GPIO_SetBits(GPIOA, GPIO_Pin_8);
+Main.c (user):		GPIO_ResetBits(GPIOA, GPIO_Pin_8);
+PGA2311.h (my_lib\pga2311):#define PGA2311_CS   GPIO_Pin_8
+Stm32f0xx_gpio.h (st_lib\inc):#define GPIO_Pin_8                 ((uint16_t)0x0100)  /*!< Pin 8 selected    */
+Stm32f0xx_gpio.h (st_lib\inc):                              ((PIN) == GPIO_Pin_8) || \
+---- PGA2311_CS Matches (3 in 2 files) ----
+PGA2311.c (my_lib\pga2311):		GPIO_ResetBits(GPIOA, PGA2311_CS);
+PGA2311.c (my_lib\pga2311):		GPIO_SetBits(GPIOA, PGA2311_CS);
+PGA2311.h (my_lib\pga2311):#define PGA2311_CS   GPIO_Pin_8
+---- PGA2311_Volume Matches (17 in 5 files) ----
+KEY.c (my_lib\key):									PGA2311_Volume(vol_count);
+KEY.c (my_lib\key):									//PGA2311_Volume(vol_count);
+KEY.c (my_lib\key):										//PGA2311_Volume(vol_count);
+Main.c (user):		PGA2311_Volume(0);
+Main.c (user):						PGA2311_Volume(vol_count);
+Main.c (user):						PGA2311_Volume(vol_count);//-16db
+Main.c (user):		//PGA2311_Volume(Default_Volume);//-16db
+Monitor_One.htm (proj):<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PGA2311_Volume
+Monitor_One.htm (proj):<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PGA2311_Volume
+Monitor_One.htm (proj):<P><STRONG><a name="[40]"></a>PGA2311_Volume</STRONG> (Thumb, 108 bytes, Stack size 16 bytes, pga2311.o(.text))
+Monitor_One.htm (proj):<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = PGA2311_Volume
+Monitor_One.htm (proj):<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PGA2311_Volume
+Monitor_One.htm (proj):<LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PGA2311_Volume
+PGA2311.c (my_lib\pga2311):void PGA2311_Volume(uint8_t RL_Channel_Count)
+PGA2311.h (my_lib\pga2311)://void PGA2311_Volume_Up(void);
+PGA2311.h (my_lib\pga2311)://void PGA2311_Volume_Down(void);
+PGA2311.h (my_lib\pga2311):void PGA2311_Volume(uint8_t RL_Channel_Count);

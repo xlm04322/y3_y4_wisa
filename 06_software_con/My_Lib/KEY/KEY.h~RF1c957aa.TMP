@@ -1,0 +1,20 @@
+
+#ifndef __KEY_H
+#define __KEY_H
+
+#include "ALL_Includes.h"
+#include "speak.h"
+#include "PGA2311.h"
+
+#define Default_Volume   162              //-16dB
+#define Max_Volume       192              //0dB
+#define Min_Volume       62               //-60dB
+
+#define PA5  	(GPIO_ReadInputData(GPIOA)>>5)&0x01
+
+void IO_Init(void);
+void IO_EXTI_Init(void);
+void EXTI2_3_IRQHandler(void);
+void EXTI4_15_IRQHandler(void);
+
+#endif

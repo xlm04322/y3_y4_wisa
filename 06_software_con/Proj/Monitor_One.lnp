@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+".\main.o"
+".\delay.o"
+".\i2c1.o"
+".\key.o"
+".\speak.o"
+".\pga2311.o"
+".\usart2.o"
+".\usart1.o"
+".\flash.o"
+".\startup_stm32f030x8.o"
+".\system_stm32f0xx.o"
+".\stm32f0xx_adc.o"
+".\stm32f0xx_dma.o"
+".\stm32f0xx_exti.o"
+".\stm32f0xx_flash.o"
+".\stm32f0xx_gpio.o"
+".\stm32f0xx_i2c.o"
+".\stm32f0xx_misc.o"
+".\stm32f0xx_rcc.o"
+".\stm32f0xx_rtc.o"
+".\stm32f0xx_syscfg.o"
+".\stm32f0xx_tim.o"
+".\stm32f0xx_usart.o"
+--library_type=microlib --strict --scatter ".\Monitor_One.sct"
+--libpath "D:\Keil_v5\ARM\ARMCC\lib" --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Monitor_One.map" -o .\Monitor_One.axf

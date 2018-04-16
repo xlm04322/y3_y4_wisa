@@ -15,3 +15,20 @@ git push -u origin master
 
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+===============>
+				keil 5
+06_software: 		y4项目中原接收板子
+06_software_con：	y3 and y4项目中，接收发射的板子，用于验证接收发送同在一个板子的性能情况
+			==> mcu:STM32F103C8T6
+			==> xtal: 16M
+			==> spi flash: 华邦25Q128FV
+			==> 						MCU—IO		MUC-pin脚	备注
+				1.WiSA发射模块配置		PB8=SCL		pin45		此配置需上电后延时约500ms操作
+										PB9=SDA		pin46	
+										PB5=BUSY	pin41
+										
+				2.接收端无线I2C控制		PB10=SCL	PIN21		"此I2C为单片机读WISA接收模块的相关信息
+										PB11=SDA	PIN22		用于验证两个wisa的无线I2C"					
+
+				
