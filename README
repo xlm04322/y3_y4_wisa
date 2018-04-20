@@ -29,6 +29,8 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 										PB5=BUSY	pin41
 										
 				2.接收端无线I2C控制		PB10=SCL	PIN21		"此I2C为单片机读WISA接收模块的相关信息
-										PB11=SDA	PIN22		用于验证两个wisa的无线I2C"					
+										PB11=SDA	PIN22		用于验证两个wisa的无线I2C"	
+
+test_wisa_rx_tx:  这个代码是可以用接收TX端发给RX，RX再发给stm32f103c8t6的代码										
 
 				
